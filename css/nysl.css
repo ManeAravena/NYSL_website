@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.encabezado {
+    background-image: url(../img/designimage3.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+}
+
+h1 {
+    padding: 10px;
+    font-size: 4em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+.events li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 1s;
+}
+h2 {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+#weblogo {
+    height: 10em;
+    float: right;
+    margin: 30px 70px;
+}
+
+.menu {
+    width: 600px;
+    float: right;
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+    -webkit-box-shadow: 15px 20px 38px 3px rgba(0,0,0,0.96);
+    -moz-box-shadow: 15px 20px 38px 3px rgba(0,0,0,0.96);
+    box-shadow: 15px 20px 38px 3px rgba(0,0,0,0.96);
+}
+
+.boton {
+    background-color: white;
+    color: black;
+    padding: 7px 10px;
+}
+
+.contenido-principal {
+    margin: 50px 50px 0 150px;
+}
+
+.contenido-principal ul {
+}
+
+.contenido-principal p {
+    margin: 5px 0 20px 40px;
+}
+
+.about {
+    width: 1000px;
+}
+.boton:hover {
+    color: white;
+    background-color: black;
+}
+
+.contenido-reglas, .contenido-partidos {
+    margin: 100px;
+    margin-left: 300px;
+    line-height: 30px;
+    width: 800px;
+    font-size: 20px;
+}
+
+.contenido-reglas li {
+    margin-left: 40px;
+}
+
+.contenido-reglas ul {
+    list-style: square;
+}
+
+.lista-letras li {
+    list-style-type: lower-alpha;
+}
+
+.tabla-partidos {
+    width: 800px;
+    margin-top: 30px;
+    font-style: italic;
+}
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+td {
+    padding: 0 10px;
+    width: 25%;
+}
+
+.info-partidos {
+    margin: 50px 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.contenido-reglas p, h3, h4, ul {
+    padding: 10px;
+}
+
+.formulario {
+    margin: 50px;
+    width: 70%;
+}
+
+label, input {
+    margin: 4px;
+    text-align: center;
+}
+
+.formulario div {
+    margin: 20px 0;
+}
+
+.formulario p {
+    margin: 20px 0;
+}
